@@ -1,0 +1,157 @@
+.container {
+    display: flex;
+    justify-content: space-between;
+    margin: 10rem;
+  }
+  
+  .box {
+    width: 50%; /* Adjust the width as needed */
+    padding: 20px;
+    border: 1px solid #ccc;
+  }
+  
+  .box:first-child {
+    background-color: #F9E4A0; /* Background color for the left box */
+  }
+  
+  input[type="text"] {
+    width: 80%;
+    padding: 10px;
+    margin-bottom: 10px;
+    box-sizing: border-box;
+    color: #777; /* Faint grey color for input text */
+  }
+  
+  input[type="submit"] {
+    width: 50%;
+    padding: 10px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .grid {
+    margin-top: 6rem;
+    font-size: 2rem;
+  }
+  
+  .LOGO {
+    width: 35%;
+    display: flex;
+    margin: auto;
+    margin-top: -3rem;
+  }
+  
+  hr {
+    padding: -1rem;
+  }
+  
+  .box1 {
+    padding: -3rem;
+  }
+  
+  .box2 {
+    font-size: 0.7rem;
+    margin-left: 18rem;
+    color: #145ead;
+    margin-top: -0.5rem;
+    font-weight: bold;
+  }
+  
+  .SignUp {
+    margin-left: 7rem;
+    font-size: 1rem;
+  }
+  .Welcome{
+    font-size: 3rem;
+    margin-bottom: 3rem;
+    font-weight: bold;
+  }
+  
+  
+  @media screen and (max-width : 840px){
+  .box2{
+  margin-left: 6rem;
+  font-size: 0.6rem;
+  }
+  .SignUp{
+    margin-left: 1.5rem;
+    font-size: 0.7rem;
+  }
+  .Welcome{
+    font-size: 1.5rem;
+  }
+  .Container{
+    margin-top: 50rem;
+  }
+  }
+  @media screen and (max-width : 430px){
+    .container {
+      position: relative;
+      width: 100%;
+      height: 100vh;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      margin: 2rem;
+      margin-right: 6rem;
+    }
+    
+    .box {
+      width: 50%;
+      padding: 20px;
+      border: 1px solid #ccc;
+      margin-bottom: 20px;
+    }
+    
+    .box:first-child {
+      background-color: #F9E4A0;
+    }
+    
+    input[type="text"] {
+      width: 100%;
+    }
+    
+    input[type="submit"] {
+      width: 60%;
+    }
+    
+    .grid {
+      margin-top: 2rem;
+      font-size: 2rem;
+    }
+    
+    .LOGO {
+      width: 20%;
+    }
+    
+    hr {
+      padding: -1rem;
+    }
+    
+    .box2 {
+      font-size: 0.7rem;
+      margin-left: 50%;
+      color: #145ead;
+      margin-top: -0.5rem;
+      font-weight: bold;
+    }
+    
+    .SignUp {
+      margin-left: 9%;
+      font-size: 1rem;
+    }
+    
+    .Welcome {
+      position: absolute;
+      top: calc(50% - 260px); /* Adjust the top position to center vertically */
+      left: 50%;
+      transform: translateX(-50%);
+      text-align: center;
+      padding: 42px;
+      width: -4rem;
+      font-size: 1rem;
+    }
+  }
