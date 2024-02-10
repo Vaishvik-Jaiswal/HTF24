@@ -1,0 +1,124 @@
+.text1 {
+    margin-left: 42rem;
+    color: black;
+    font-size: 1.5rem;
+    margin-top: 1.5rem;
+    margin-bottom: 3rem;
+    font-weight: 600;
+  }
+  
+  .DSup {
+    width: 35rem;
+    margin: 0 auto;
+    padding: 2rem;
+    border: 1px solid #ccc;
+    border-radius: 2rem;
+    background-color: #F9E4A0;
+    margin-bottom: 2rem;
+  }
+  
+  .DSup h2 {
+    text-align: center;
+    margin-bottom: 2rem;
+    color: #333;
+  }
+  
+  .DSup form {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .DSup label {
+    margin-bottom: 1rem;
+    color: #555;
+  }
+  
+  .DSup input[type='text'],
+  .DSup input[type='number'],
+  .DSup textarea,
+  .DSup button[type='submit'] {
+    width: 100%;
+    padding: 1rem;
+    margin-bottom: 1rem; 
+    border: 1px solid #ccc;
+    border-radius: 0.5rem;
+    box-sizing: border-box;
+    font-size: 1rem;
+  }
+  
+  .DSup textarea {
+    height: 4rem; 
+  }
+  
+  .DSup button[type='submit'] {
+    background-color: #007bff;
+    color: #fff;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    width: 5rem;
+    margin-bottom: 1rem;
+  }
+  
+  
+  .DSup * {
+    margin: 0rem 0; 
+  }
+
+
+  @media screen and (max-width : 840px){
+    .text1 {
+        margin-left: 20rem;
+        color: black;
+        font-weight: 600;
+      }
+  }
+
+  @media screen and (max-width: 430px){
+    .text1 {
+        margin-left: 8rem; 
+        font-size: 1.2rem; 
+        margin-top: 1rem; 
+        margin-bottom: 2rem; 
+
+      }
+      
+      .DSup {
+        width: 70%; 
+        padding: 1rem; 
+        border-radius: 1rem; 
+        margin-bottom: 1rem;}
+      
+      .DSup h2 {
+        margin-bottom: 1rem; /* Adjusted for smaller screens */
+      }
+      
+      
+      .DSup label {
+        margin-bottom: 0.5rem; 
+      }
+      
+      .DSup input[type='text'],
+      .DSup input[type='number'],
+      .DSup textarea,
+      .DSup button[type='submit'] {
+        width: 100%;
+        padding: 0.8rem; 
+        margin-bottom: 0.5rem; 
+      }
+      
+      .DSup textarea {
+        height: 3rem; 
+      }
+      
+      .DSup button[type='submit'] {
+        background-color: #007bff;
+        width: 40%;
+        margin-bottom: 0; 
+      }
+      
+      .DSup * {
+        margin: 0; 
+      }
+      
+  }
+  

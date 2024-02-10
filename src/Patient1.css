@@ -12,6 +12,9 @@
   
   .para3 {
     margin-top: -3rem;
+    margin-left: 15rem;
+    margin-right: 15rem;
+    align-items:center;
   }
   
 
@@ -21,8 +24,9 @@
     border-radius: 2rem;
     background-color: #F9E4A0;
     margin-left: 7rem;
-    margin-top: 1rem;
+    margin-top: 3rem;
     display: flex;
+    justify-content: start;
   }
 
   .search-icon-img{
@@ -32,52 +36,67 @@
     height: 60%;
   }
 
-  .text1{
-    margin-left: 1rem;
-    margin-top: 0.5rem;
-    display: flex;
-    color: rgb(112, 107, 107);
-    font-size: 1rem;
-  }
+  .text1 {
+    color: #00000087;
+    font-size: 1.5rem;
+    margin-top: -vh;
+    margin-bottom: 2rem;
+    font-weight: 600;
+    height:fit-content;
+    width: fit-content;
+}
 
   .pati1{
     background-image: linear-gradient(to right, #fff0bd, #fffdf5); 
-    height: 40.5rem;
+    height: 15rem;
   }
 
 
+  
   @media screen and (max-width : 840px){
     .para2{
         margin-left: 1rem;
     }
 
     .para3{
-        margin-left: 1rem;
+        margin-left: 5rem;
+        margin-right: 5rem;
     }
 
     .search{
-        margin-top: -22rem;
+        margin-top: -10rem;
         margin-left: 2rem;
         width:45rem ;
     }
 
     .pati1{
-        height: 69.5rem;
+        height: 10.5rem;
+    }
+
+    .doctors{
+      margin-left: -8rem;
+
     }
   }
 
   @media screen and (max-width : 430px){
     .para2{
-        margin-left: 1.5rem;
+        margin-left: 1.3rem;
         font-size: 1.3rem;
     }
 
     .para3{
-        margin-left: 1.5rem;
+        margin-left: 2.5rem;
         font-size: 1rem;
+        align-items: center;
     }
 
     .search{
-        width: 23rem;
+        width: 20rem;
+    }
+    .doctors{
+      margin-left: 1rem;
+      margin-top: 30vh;
     }
   }
+

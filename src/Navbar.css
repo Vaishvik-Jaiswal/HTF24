@@ -3,8 +3,8 @@
     flex-direction: column;
     justify-content: center;
     background-color: #F9E4A0;
-    padding: 2rem;
-    height: 1rem;
+    padding: 3rem;
+    height: 3rem;
 }
 .LOGO{
     width: 50%;
@@ -34,7 +34,7 @@
   @media screen and (max-width : 430px){
    .landing-page{
     height: 0rem;
-    width: 31rem;
+    width: 27rem;
    }
     .LOGO{
         width: 40%;

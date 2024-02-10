@@ -1,0 +1,120 @@
+.text1 {
+    margin-left: 42rem;
+    color: black;
+    font-size: 1.5rem;
+    margin-top: 1.5rem;
+    margin-bottom: 3rem;
+    font-weight: 600;
+  }
+  
+  .PSup {
+    width: 35rem;
+    margin: 0 auto;
+    padding: 2rem;
+    border: 1px solid #ccc;
+    border-radius: 2rem;
+    background-color: #F9E4A0;
+    margin-bottom: 2rem;
+  }
+  
+  .PSup h2 {
+    text-align: center;
+    margin-bottom: 2rem;
+    color: #333;
+  }
+  
+  .PSup form {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .PSup label {
+    margin-bottom: 1rem;
+    color: #555;
+  }
+  
+  .PSup input[type='text'],
+  .PSup input[type='number'],
+  .PSup textarea,
+  .PSup button[type='submit'] {
+    width: 100%;
+    padding: 1rem;
+    margin-bottom: 1rem;
+    border: 1px solid #ccc;
+    border-radius: 0.5rem;
+    box-sizing: border-box;
+    font-size: 1rem;
+  }
+  
+  .PSup textarea {
+    height: 4rem;
+  }
+  
+  .PSup button[type='submit'] {
+    background-color: #007bff;
+    color: #fff;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    width: 5rem;
+    margin-bottom: 1rem;
+  }
+  
+  .PSup * {
+    margin: 0rem 0;
+  }
+  
+  @media screen and (max-width: 840px) {
+    .text1 {
+      margin-left: 20rem;
+      color: black;
+      font-weight: 600;
+    }
+  }
+  
+  @media screen and (max-width: 430px) {
+    .text1 {
+      margin-left: 8rem;
+      font-size: 1.2rem;
+      margin-top: 1rem;
+      margin-bottom: 2rem;
+    }
+  
+    .PSup {
+      width: 70%;
+      padding: 1rem;
+      border-radius: 1rem;
+      margin-bottom: 1rem;
+    }
+  
+    .PSup h2 {
+      margin-bottom: 1rem;
+    }
+  
+    .PSup label {
+      margin-bottom: 0.5rem;
+    }
+  
+    .PSup input[type='text'],
+    .PSup input[type='number'],
+    .PSup textarea,
+    .PSup button[type='submit'] {
+      width: 100%;
+      padding: 0.8rem;
+      margin-bottom: 0.5rem;
+    }
+  
+    .PSup textarea {
+      height: 3rem;
+    }
+  
+    .PSup button[type='submit'] {
+      background-color: #007bff;
+      width: 40%;
+      margin-bottom: 0;
+    }
+  
+    .PSup * {
+      margin: 0;
+    }
+  }
+  
