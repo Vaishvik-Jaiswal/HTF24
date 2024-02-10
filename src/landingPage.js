@@ -3,49 +3,44 @@ import Logo from './assets/Logo.png';
 import { BrowserRouter as Router, Link } from 'react-router-dom';
 import './landingPage.css';
 import lp from './assets/lp_vector.png';
+import Navbar from './Navbar.js';
 
 const LandingPage = () => {
-  return (
-    <Router>
-      <div className="landing-page">
-        <nav className="navbar">
-          <div className="logo">
-            <img className="LOGO" src={Logo} alt="Logo" />
-          </div>
-          <div className="nav-links">
-            <Link to="/">Home</Link>
-            <Link to="/contact">Contact</Link>
-          </div>
-        </nav>
-      </div>
+    return (
 
-      <div className="below-navbar">
-        <div className='info'>
-            <p className='para1'>
-            Welcome to DocIt, where healthcare meets convenience. At DocIt, we're on a mission to simplify the patient-doctor interaction. Say goodbye to long waits and embrace streamlined communication.
-            </p>
-            <img className='vector1' src={lp}></img>
-        </div>
-    </div>
+        <>
+            <Navbar />
+            <div className="below-navbar">
+                <div className='info'>
+                    <p className='para1'>
+                        Welcome to DocIt, where healthcare meets convenience. At DocIt, we're on a mission to simplify the patient-doctor interaction. Say goodbye to long waits and embrace streamlined communication.
+                    </p>
+                    <img className='vector1' src={lp}></img>
+                </div>
+            </div>
 
-    {/* <div className='below-vector'>
+            <div className='below-vector'>
                 <div className='choose-d-p'>
-            <p className='para2'>
-                How do you want to use DocIt?
-            </p>
-            <p className='para3'>
-                We'll personalize your setup experience accordingly.
-            </p>
-            <button className='doctor-button'>
-                Doctor
-            </button>
-            <button className='patient-button'>
-                Patient
-            </button>
-        </div> */}
-    {/* </div> */}
-    </Router>
-  );
+                    <div className='para2'><p>
+                        How do you want to use DocIt?
+                    </p></div>
+                    <div className='para3'>
+                        <p>
+                            We'll personalize your setup experience accordingly.
+                        </p>
+                    </div>
+                    <div className='lp-buttons'>
+                        <button className='doctor-button'>
+                            Doctor
+                        </button>
+                        <button className='patient-button'>
+                            Patient
+                        </button>
+                    </div>
+
+                </div>
+            </div></>
+    );
 };
 
 export default LandingPage;
