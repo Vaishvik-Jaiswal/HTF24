@@ -1,25 +1,21 @@
 import React from 'react';
 import Navbar from './Navbar.js';
 import './Patient2.css';
+import Profile1 from './profile.js';
 
-const Patient2 = () => {    
-    return (
-        <>
-            <Navbar />
-
-        <div className='pati1'>
-            <div className='info'>
-                <p className='para2'>
-                Appoint to the Best Doctors here!
-                </p>
-                    <p className='para3'>
-                        We'll personalize your setup experience accordingly.
-                        </p>
-            </div>
-            </div>
-        </>
-    );
+function Patient2() {
+  return (
+    <>
+    <Navbar />
+    <Profile1 />
+    <div className="additional-text">
+        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. </p>
+      </div>
+    <div className="profile-container">
+      <button className="action-button"> <h2 >Make an Appointment</h2></button>
+      </div>
+    </>
+  );
 }
 
 export default Patient2;
-                                                                                                                                                                                                                                                                                                                                                                                                    

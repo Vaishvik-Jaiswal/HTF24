@@ -6,9 +6,11 @@
     padding: 2rem;
     height: 1rem;
 }
-.LOGO{
-    width: 50%;
+.LOGO {
+    width: 35%;
     display: flex;
+    margin: auto;
+    margin-top: 0rem;
 }
 .navbar{
     display: flex;
@@ -38,6 +40,10 @@
    }
     .LOGO{
         width: 40%;
+    }
+    .landing-page {
+        height: 0rem;
+        width: 21.7rem;
     }
   }
   
