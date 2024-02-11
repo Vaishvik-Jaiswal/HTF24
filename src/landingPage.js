@@ -8,8 +8,7 @@ import Navbar from './Navbar.js';
 const LandingPage = () => {
     return (
 
-        <>
-            <Navbar />
+        <> 
             <div className="below-navbar">
                 <div className='info'>
                     <p className='para1'>
@@ -31,11 +30,13 @@ const LandingPage = () => {
                     </div>
                     <div className='lp-buttons'>
                         <button className='doctor-button'>
-                            Doctor
+                            <Link to="/Dlogin">Doctor</Link>
                         </button>
+
                         <button className='patient-button'>
-                            Patient
+                            <Link to="/login">Patient</Link>
                         </button>
+
                     </div>
 
                 </div>

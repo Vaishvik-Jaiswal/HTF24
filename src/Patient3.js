@@ -6,7 +6,7 @@ import Profile1 from './profile.js';
 function Patient3() {
   return (
     <>
-      <Navbar />
+      {/* <Navbar /> */}
       <Profile1 />
       <div className="profile-container">
         <div className="rectangle-container">

@@ -1,5 +1,6 @@
 import React from 'react';
 import './Dsign.css';
+import { BrowserRouter as Router, Link } from 'react-router-dom';
 
 const Dsign = () => {
 
@@ -32,7 +33,7 @@ const Dsign = () => {
             <label htmlFor="about">About:</label>
             <textarea id="about" name="about" required />
           </div>
-          <button type="submit">Submit</button>
+          <button type="submit"><Link to="/TodaysApp">Submit</Link></button>
         </form>
       </div>
 

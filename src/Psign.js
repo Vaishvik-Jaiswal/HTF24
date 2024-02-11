@@ -1,5 +1,7 @@
 import React from 'react';
 import './Psign.css'; // Assuming you have a corresponding CSS file for Psign
+import { BrowserRouter as Router, Link } from 'react-router-dom';
+import Patient1 from './Patient1';
 
 const Psign = () => {
   return (
@@ -19,7 +21,7 @@ const Psign = () => {
             <label htmlFor="address">Address:</label>
             <textarea id="address" name="address" required />
           </div>
-          <button type="submit">Submit</button>
+          <button type="submit"><Link to="/Patient1">Submit</Link></button>
         </form>
       </div>
     </div>

@@ -1,4 +1,4 @@
-.additional-text {
+/* .additional-text {
     margin-top: 1rem;
     margin-left: 6rem;
     margin-right: 8rem;
@@ -14,4 +14,44 @@
     align-items: center;
     margin-left: 10rem;
     margin-top: -2rem;
+  } */
+
+  /* .additional-text {
+    margin-top: 1rem;
+    margin-left: 6rem;
+    margin-right: 8rem;
+  }
+  .profile-container {
+    background-image: linear-gradient(to right, #fff0bd, #fffdf5); 
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .h1{
+    align-items: center;
+    margin-left: 10rem;
+    margin-top: -2rem;
+  } */
+
+
+  .additional-text {
+    margin-top: 1rem;
+    margin-left: 6rem;
+    margin-right: 8rem;
+  }
+  
+  .radio-container {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .radio-item {
+    display: flex;
+    align-items: center;
+    margin-bottom: 0.5rem; /* Adjust spacing between radio items */
+  }
+  
+  .radio-item input[type="radio"] {
+    margin-right: 0.5rem; /* Adjust spacing between radio buttons and labels */
   }

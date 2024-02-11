@@ -7,10 +7,9 @@
     height: 3rem;
 }
 .LOGO {
-    width: 35%;
-    display: flex;
+    width: 50%;
     margin: auto;
-    margin-top: 0rem;
+    margin-top: -3rem;
 }
 .navbar{
     display: flex;

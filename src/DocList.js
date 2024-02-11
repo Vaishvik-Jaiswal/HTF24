@@ -2,10 +2,12 @@ import Doc from "./Doc.js";
 import React from 'react';
 import './Doclist.css';
 import ps from './assets/profile.png';
+import { BrowserRouter as Router, Link } from 'react-router-dom';
 
 const Doclist = () => {
     return(
     <div className="Doclist">
+        {/* <Link to="/Patient2"> */}
     <Doc img={ps} t= "Dr. Lorem" a="Dentist" aa="Gandhinagar,Ahemdabad,Gujarat."/>
     <Doc img={ps} t= "Dr. Lorem" a="Dentist" aa="Gandhinagar,Ahemdabad,Gujarat."/>
     <Doc img={ps} t= "Dr. Lorem" a="Dentist" aa="Gandhinagar,Ahemdabad,Gujarat." />
